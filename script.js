@@ -1,5 +1,6 @@
 function getFormvalue() {
     //Write your code here
-var str = document.getElementsByTagName("input").innerText;
-	document.alert(str[0] + " " + str[1]);
+	var fname = document.getElementById("firstName").value;
+	var lname = document.getElementById("lastName").value;
+	window.alert(fname + " " + lname);
 }
